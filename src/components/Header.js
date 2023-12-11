@@ -17,7 +17,7 @@ export default function Header() {
         <a href="/" className="flex items-center">
           <img src={ENP_Logo} alt="Elephant Nature Park" className="h-8 md:h-10" />
               </a>
-        <div>Elephant Nature Park</div>
+        <div className="text-xl font-bold">Elephant Nature Park</div>
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
